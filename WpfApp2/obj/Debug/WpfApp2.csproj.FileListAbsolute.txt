@@ -23,3 +23,5 @@ B:\C# проекты\WPFLarionovDB\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
 B:\C# проекты\WPFLarionovDB\WpfApp2\obj\Debug\WpfApp2.exe
 B:\C# проекты\WPFLarionovDB\WpfApp2\obj\Debug\WpfApp2.pdb
 B:\C# проекты\WPFLarionovDB\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+B:\C# проекты\WPFLarionovDB\WpfApp2\obj\Debug\RegistrationWindow.baml
+B:\C# проекты\WPFLarionovDB\WpfApp2\obj\Debug\RegistrationWindow.g.cs

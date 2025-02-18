@@ -62,7 +62,12 @@
                              Background="#FFFFFF" Padding="5" UseLayoutRounding="False"/>
             </Border>
             <Button x:Name="LoginButton" Width="248" Height="35" Click="LoginButton_Click" 
-                    Style="{StaticResource RoundedButtonStyle}" Content="Login"/>
+                    Style="{StaticResource RoundedButtonStyle}" Content="Login" Margin="0,0,0,10"/>
+            <Button x:Name="RegisterSwitchButton" Width="248" Height="35"
+                    Click="RegisterSwitchButton_Click" 
+                    Style="{StaticResource RoundedButtonStyle}" 
+                    Content="Регистрация"/>
+            <!-- Кнопка перехода на окно регистрации -->
         </StackPanel>
     </Grid>
 </Window>

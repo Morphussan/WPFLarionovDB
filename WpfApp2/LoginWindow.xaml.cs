@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Windows;
+using WpfApp2.DBmodel;
 
 namespace WpfApp2
 {
@@ -15,7 +16,7 @@ namespace WpfApp2
             string username = UsernameTextBox.Text;
             string password = PasswordBox.Password;
 
-            using (var db = new DBmodel.ShopDBEntities()) 
+            using (var db = new ShopDBEntities())
             {
                 var user = db.Users.FirstOrDefault(u => u.Login == username && u.Pass == password);
 
@@ -32,6 +33,13 @@ namespace WpfApp2
                     MessageBox.Show("Хотел продукты добавлять? А вот нефиг всё забывать");
                 }
             }
+        }
+
+        private void RegisterSwitchButton_Click(object sender, RoutedEventArgs e)
+        {
+            RegistrationWindow registrationWindow = new RegistrationWindow();
+            registrationWindow.Show();
+            this.Close();
         }
     }
 }
